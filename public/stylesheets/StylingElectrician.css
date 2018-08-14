@@ -1,0 +1,181 @@
+/*body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+*/#SubmitBu{
+  color:black;
+  border-radius:10px;
+  background-color:#f1f1f1;
+  width:250px;
+  height:8%;
+  font-size:20px;
+  margin-left:auto;
+  margin-right: auto;
+  opacity:0.7;
+  cursor: pointer;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#SubmitBu:hover{
+  border-color:black;
+  opacity:0.9;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  background-color:white;
+}
+.current Tab input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+  background-color: #ffdddd;
+  border-color:red;
+}
+
+
+#BuForService{
+  color:black;
+  background-color:#f1f1f1;
+  width:25%;
+  height:10%;
+  font-size:20px;
+  opacity:0.8;
+  margin-left:38%;
+  border-radius:20%;
+}
+#BuForService:hover{
+  border-color:gray;
+  border-radius:20%;
+  opacity:1.0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow:scroll;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.serviceSelect{overflow:scroll;}
+.model-content{overflow:scroll;} 
+
+#elec-head{
+  /*background-color: #f2f2f2*//*#ff4d4d*/;
+}
+
+#elec-actual-head{
+  color: blue/*#4700b3*/;
+  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-family: 'Lato', Sunflower;
+  font-weight: bold;
+  text-shadow: 0 0 5px yellow;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+#service-head{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+}
+
+#ser-head-1{
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+#ser-head-2{
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid red;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#ser-para{
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: grey;
+}
+
+#service-detail{
+  /*background-color: #f2f2f2*//*#e6ecff*/;
+}
+
+#ser-actual-det{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-family: 'Lato', Sunflower;
+  padding-bottom: 30px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+#detail-head{
+  padding-top: 20px;
+  font-size: 35px;
+  color: #7a0099;
+}
+
+#detail-list{
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#detail-list>li{
+  padding-bottom: 10px;
+}
+
+.detail-button{
+  padding-bottom: 20px;
+}
+

@@ -1,0 +1,21 @@
+<% include ./partials/header %>
+  <style>@import url('/stylesheets/StylingForm.css')</style>
+
+  <div class="container" style="margin-top: 4.5rem;">
+    <h2  style="text-align: center;">Login</h2>
+
+    <form id="regForm" method="post" action="/prof" style="margin-top: 1.5rem;">
+
+      <div>Login Info:
+        <p><input placeholder="Email" name="logemail"></p>
+        <p><input placeholder="Password" name="logpassword" type="password"></p>
+      </div>
+
+      <div>
+        <input type="submit" value="Submit" id="submitBtn">
+      </div>
+
+    </form>
+  </div>
+
+<% include ./partials/footer %>

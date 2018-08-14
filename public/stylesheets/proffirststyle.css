@@ -1,0 +1,75 @@
+#main-body{
+  background-image: url(/images/main_body.png);
+}
+.guidetoprof{
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Lato', Raleway;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.tiptoprof{
+  color: white;
+  padding-top: 20px;
+  border-top: 1.5px solid white;
+  text-align: center;
+  font-family: 'Lato', Ubuntu;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 40px;
+}
+
+#main-content{
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 0 0 20px;
+  padding-bottom: 10px;
+}
+.main-content-header{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid grey;
+  margin-bottom: 20px;
+}
+  .profsteps>li>h4{
+    color: blue;
+  }
+  .profsteps>li>p{
+    color: purple;
+  }
+
+.service-partner{
+  margin-top: 30px;
+  background-color: #8080ff;
+
+}
+  .service-partner>h3{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: 3px solid white;
+  }
+  .service-partner>p{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Lato', Roboto Mono;
+    font-weight: bold;
+  }
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Lato', Open Sans;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+<% include ../partials/cheader %>
+
+  <style>@import url('/stylesheets/profile.css')</style>
+<div class="container page">
+  <h1>Your Profile:
+  </h1>
+  <div id="profile-page">
+    <h2>Name: </h2>
+    <p>
+    <%= user.fname %> <%= user.lname %>
+    </p>    
+    <h2>Username: </h2>
+    <p>
+    <%= user.uname %>
+    </p>
+      <h2>Phone: </h2>
+      <%= user.phone %>      
+    <h2>Mail: </h2>
+      <%= user.email %>    
+    <h2>Address: </h2>
+      <%= user.address %> 
+    <h2>DOB: </h2>
+    <p>
+    <%= user.bd %>/<%= user.bm %>/<%= user.by %>
+    </p>   
+    <h2>Password: </h2>
+      <%= user.password %>
+  </div>
+</div>
+
+  <br>
+  <a type="button" href="/cust/logout">Logout</a>
+</body>
+
+</html>

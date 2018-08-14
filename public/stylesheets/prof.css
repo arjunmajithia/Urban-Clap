@@ -1,0 +1,21 @@
+
+.main-header {
+  background-color: #f2f2f2;
+  color: #0f0f0f;
+}
+
+.search-tip {
+  color: #7f9f9f;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+#header {
+  text-align: center;
+  margin: auto;
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+  font-size: 50px;
+  font-family: monospace;
+  color: grey;
+}

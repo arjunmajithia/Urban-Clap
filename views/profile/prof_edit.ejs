@@ -1,0 +1,52 @@
+<% include ../partials/header %>
+
+  <style>@import url('/stylesheets/profile.css')</style>
+<div class="container page">
+  <h1>Edit Profile:
+  </h1>
+  <div id="profile-page">
+    
+    <form id="editForm" method="post" action="/prof/profile/edit?_method=PUT">
+
+    <h2>Username: </h2>
+      <p>
+      <%= user.uname %>
+      </p>
+    <h2>Name: </h2>
+      <p>
+        <%= user.fname %> <%= user.lname %><br>  
+        <input type="text" placeholder="<%= user.fname %>" name="fname" required value=<%= user.fname %>>
+        <input type="text" placeholder="<%= user.lname %>" name="lname" required value=<%= user.lname %>>
+      </p>    
+
+    <h2>Phone: </h2>
+      <%= user.phone %>    
+      <p><input placeholder="Phone..." pattern="[0-9]{10}" name="phone" required value=<%= user.phone %>></p>
+    <h2>Mail: </h2>
+      <%= user.email %>  
+      <p><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="E-mail..." name="email" required value=<%= user.email %>></p>
+    <div>
+      <h2>Address: </h2>
+      <%= user.address %> 
+      <p><input placeholder="Address" name="address" required value=<%= user.address %> ></p>
+    </div>
+    <div>
+      <h2>DOB: </h2>
+      <p>
+        <%= user.bd %>/<%= user.bm %>/<%= user.by %>
+      </p>   
+      <p><input placeholder="dd" pattern="[0-9]{2}" name="bd" required value=<%= user.bd %>></p>
+      <p><input placeholder="mm" pattern="[0-9]{2}" name="bm" required value=<%= user.bm %>></p>
+      <p><input placeholder="yyyy" pattern="[0-9]{4}" name="by" required value=<%= user.by %>></p>
+    </div>
+    <div>
+      <input type="submit" value="Submit" id="submitBtn">
+    </div>
+
+  </form>
+  </div>
+</div>
+
+</body>
+
+</html>

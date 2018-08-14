@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-git2.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">UC</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  
+          <% if(!user){ %>
+          <ul class="navbar-nav">
+             <li class="nav-item">
+              <a class="nav-link" href="/cust">Customer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/prof">Professional</a>
+            </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="/prof/login">Login</a></li>
+              <li class="nav-item"><a class="nav-link" href="/prof/reg">Sign Up</a></li>
+            </ul>
+            <% } else { %>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="/prof/profile">Signed In As <%= user.uname %></a></li>
+              <li class="nav-item"><a class="nav-link" href="/prof/logout">Logout</a></li>
+            </ul>
+            <% } %>
+        
+      </div>
+    </div>
+  </nav>

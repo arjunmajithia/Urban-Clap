@@ -1,0 +1,75 @@
+*{box-sizing:border-box;}
+h1
+{text-align:center;}
+#heading
+{
+  opacity:0.9;
+  color:white;
+  height:8%;
+   padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Lato', Courier;
+  background-color: black;
+  margin:-3%;
+ font-size:180%;
+ }
+#Head{
+ font-family:"Comic Sans MS", cursive, sans-serif	;
+
+}
+#About{
+  font-size:20px;
+  padding:2%;
+  font-family:" Comic Sans MS", cursive, sans-serif	;
+}
+
+#b {
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background-color: #e0e0d1;
+}
+.column1{
+  width:20%;
+  float:left;
+  padding:1%;
+ font-size:20px;
+ text-align:center;
+
+}
+
+img{height:25%;
+
+ }
+ .column1 img {
+     opacity: 0.8;
+     cursor: pointer;
+ }
+
+th{
+  padding-top:20px;
+   padding-left:100px;
+  padding-right:100px;
+}
+
+ .column1 img:hover {
+     opacity: 1;
+ }
+
+.column1{
+  text-align:center;
+  font-family:"Comic Sans MS", cursive, sans-serif	;
+  font-size:20px;
+}
+
+#majithia{display:none;}
+#tomar{display:none;}
+#agarwal{display:none;}
+#kumarjha{display:none;}
+#priyank{display:none;}
